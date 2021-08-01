@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="shortcut icon" type="image/png" href="img/heart.png"/>
+      <title>HEY BAE !!</title>
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+      <div class="container">
+
+            <header>
+                  <img src="img/heart.png">
+                  <p>Cuối tuần này... mình đi chơi nhé !!</p>
+            </header>
+
+            <main>
+                  <h2>Anh đang có 2 vé xem phim</h2>
+                  <audio autoplay controls loop>
+                        <source src="mp3/Gu.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                  </audio>
+                  
+                  <div>
+                        <p>Vé thứ nhất có tên em</p>
+                        <div class="ticket">
+                              <img src="img/ticket.png">
+                              <span>Chính là em</span>
+                        </div>
+                  </div>
+                  
+                  <div>
+                        <p>Vé thứ hai có tên anh</p>
+                        <div class="ticket">
+                              <img src="img/ticket.png">
+                              <span>Phạm Quốc Việt</span>
+                        </div>
+                  </div>
+
+                  <p id="invite">Mình đi xem phim, rồi đi ăn những món em thích... chịu không ^^</p>
+                  <div id="agree">
+                        <p>Phim chiếu vào <time> 19h30 - 00/00/0000 </time> </p>
+                        <p>Anh sẽ đón em lúc <time>19h00</time></p>
+                        <i id="end">💕 Love you</i>
+                  </div>
+            </main>
+
+            <a href="https://facebook.com/vietter.99" id="contact" target="_blank">Nhắn tin cho anh</a>
+      </div>
+      <script type='text/javascript'> ! function (e, t, a) { function n() { c( ".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}" ), o(), r() } function r() { for (var e = 0; e < d.length; e++) d[e].alpha <= 0 ? (t.body.removeChild(d[e].el), d.splice(e, 1)) : (d[e].y--, d[e].scale += .004, d[e].alpha -= .013, d[e].el.style.cssText = "left:" + d[e].x + "px;top:" + d[e].y + "px;opacity:" + d[e].alpha + ";transform:scale(" + d[e].scale + "," + d[e].scale + ") rotate(45deg);background:" + d[e].color + ";z-index:99999"); requestAnimationFrame(r) } function o() { var t = "function" == typeof e.onclick && e.onclick; e.onclick = function (e) { t && t(), i(e) } } function i(e) { var a = t.createElement("div"); a.className = "heart", d.push({ el: a, x: e.clientX - 5, y: e.clientY - 5, scale: 1, alpha: 1, color: s() }), t.body.appendChild(a) } function c(e) { var a = t.createElement("style"); a.type = "text/css"; try { a.appendChild(t.createTextNode(e)) } catch (t) { a.styleSheet.cssText = e } t.getElementsByTagName("head")[0].appendChild(a) } function s() { return "rgb(" + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + ")" } var d = []; e.requestAnimationFrame = function () { return e.requestAnimationFrame || e.webkitRequestAnimationFrame || e.mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame || function (e) { setTimeout(e, 1e3 / 60) } }(), n() }(window, document); </script>
+</body>
+</html>
